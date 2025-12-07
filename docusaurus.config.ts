@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Physical AI & Humanoid Robotics',
-  tagline: 'A Textbook by umair ahmed',
+  tagline: 'A Textbook by Syed Ali Raza',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -15,10 +15,10 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://github.com/TeamTheCoders/AI_written_book_-',
+  url: 'https://TeamTheCoders.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  // For GitHub Pages deployment, it is often '/<projectName>/'
+  baseUrl: '/AI_written_book_-/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -45,8 +45,6 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-            editUrl:                                                                                                      │
-│ 49 +         'https://github.com/TeamTheCoders/AI_written_book_-'                                                        │
         },
         blog: false, // disabled blog
         theme: {
@@ -65,9 +63,9 @@ const config: Config = {
     navbar: {
       title: 'Physical AI & Humanoid Robotics',
       items: [
-       
+      
         {
-          to: '/docs/  /docs/introduction/vision-of-embodied-ai',
+          to: '/docs/introduction/vision-of-embodied-ai',
           label: 'Start Reading',
           position: 'left',
         },
@@ -76,6 +74,11 @@ const config: Config = {
           to: '/docs/overview',
           label: 'Overview',
           position: 'left',
+        },
+        {
+          href: 'https://github.com/TeamTheCoders/AI_written_book_-',
+          label: 'GitHub',
+          position: 'right',
         },
       ],
     },
@@ -124,6 +127,10 @@ const config: Config = {
         {
           title: 'More',
           items: [
+            {
+              label: 'GitHub',
+              href: 'https://github.com/TeamTheCoders/AI_written_book_-',
+            },
           ],
         },
       ],
@@ -138,7 +145,3 @@ const config: Config = {
 };
 
 export default config;
-
-
-
-
