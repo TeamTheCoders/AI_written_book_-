@@ -45,9 +45,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/Syed-AliRaza005/AI-native-book'
-             editUrl:                                                                                                      │
+            editUrl:                                                                                                      │
 │ 49 +         'https://github.com/TeamTheCoders/AI_written_book_-'                                                        │
         },
         blog: false, // disabled blog
@@ -67,12 +65,7 @@ const config: Config = {
     navbar: {
       title: 'Physical AI & Humanoid Robotics',
       items: [
-        // {
-        //   type: 'docSidebar',
-        //   sidebarId: 'tutorialSidebar',
-        //   position: 'left',
-        //   label: 'Textbook',
-        // },
+       
         {
           to: '/docs/  /docs/introduction/vision-of-embodied-ai',
           label: 'Start Reading',
@@ -145,6 +138,7 @@ const config: Config = {
 };
 
 export default config;
+
 
 
 
