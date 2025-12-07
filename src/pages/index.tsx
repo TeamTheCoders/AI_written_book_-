@@ -33,7 +33,7 @@ function HeroSection() {
             </Link>
             <Link
               className="px-6 py-3 text-lg font-semibold text-white transition-all duration-300 border rounded-full border-white/20 bg-white/10 hover:bg-white/20 hover:border-white/40 backdrop-blur-sm"
-              to="https://github.com/Syed-AliRaza005/AI-native-book">
+              to="https://github.com/TeamTheCoders/AI_written_book_-/">
               Explore on GitHub
             </Link>
           </div>
