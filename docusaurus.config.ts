@@ -15,10 +15,10 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://github.com/TeamTheCoders',
+  url: 'https://github.com/TeamTheCoders/AI_written_book_-',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/AI_written_book_-',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -47,6 +47,8 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           // editUrl:
           //   'https://github.com/Syed-AliRaza005/AI-native-book'
+             editUrl:                                                                                                      │
+│ 49 +         'https://github.com/TeamTheCoders/AI_written_book_-'                                                        │
         },
         blog: false, // disabled blog
         theme: {
@@ -143,5 +145,6 @@ const config: Config = {
 };
 
 export default config;
+
 
 
