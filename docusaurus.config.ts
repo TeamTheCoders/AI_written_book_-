@@ -15,14 +15,14 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://github.com/TeamTheCoders/AI_written_book_-',
+  url: 'https://github.com/TeamTheCoders',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/AI_written_book_-',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'https://github.com/TeamTheCoders',
+  organizationName: 'TeamTheCoders',
   projectName: 'AI_written_book_-', // Usually your repo name.
   trailingSlash: false,
   deploymentBranch: 'gh-pages',
@@ -143,4 +143,5 @@ const config: Config = {
 };
 
 export default config;
+
 
