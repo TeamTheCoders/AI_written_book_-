@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Physical AI & Humanoid Robotics',
-  tagline: 'A Textbook by Syed Ali Raza',
+  tagline: 'A Textbook by umair',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -18,7 +18,7 @@ const config: Config = {
   url: 'https://TeamTheCoders.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub Pages deployment, it is often '/<projectName>/'
-  baseUrl: '/AI_written_book_-/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -147,3 +147,4 @@ const config: Config = {
 };
 
 export default config;
+
