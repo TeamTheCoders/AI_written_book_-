@@ -18,7 +18,9 @@ const config: Config = {
   url: 'https://TeamTheCoders.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub Pages deployment, it is often '/<projectName>/'
-  baseUrl: '/frontend',
+  baseUrl: '/'
+  organizationName: 'TeamTheCoders',
+  projectName: 'AI_Written_book_-',
 
   customFields: {
     backendUrl: 'http://localhost:8000', // Default for local development
